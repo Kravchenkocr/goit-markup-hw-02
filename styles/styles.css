@@ -1,0 +1,225 @@
+:root {
+  /* Текст колор */
+  --main-font: 'Roboto';
+  --sacondary-font: 'Raleway';
+  --title-text-color: #212121;
+  --primery-text-color: #757575;
+
+  /* Бэкграунд колор */
+  --primery-white-color: #ffffff;
+  --accent-text-color: #2196f3;
+  --sacondary-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
+}
+
+body {
+  background-color: var(--primery-white-color);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-decoration: none;
+}
+.header {
+  background: var(--primery-white-color);
+}
+.list {
+  list-style: none;
+}
+.section2 {
+  background-color: var(--primery-white-color);
+  
+}
+.section3 {
+  background: #f5f4fa;
+}
+
+/*site-nav*/
+
+.site-nav.link {
+  color: #212121;
+}
+.link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: currentColor;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-text-color);
+}
+.mail:hover,
+.mail:focus {
+  color: var(--accent-text-color);
+}
+.auth-nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+/*button*/
+
+.button {
+  color: currentColor;
+  font-family: inherit;
+  border: none
+  
+}
+
+.button-primary {
+  background-color: var(--accent-text-color);
+  color: var(--primery-white-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none
+}
+.button-secondary {
+  background-color: #f5f4fa;
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none
+  
+}
+
+/*Контакты*/
+
+.mail {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.mail-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--accent-text-color);
+  text-decoration: none;
+}
+.logo-studio {
+  color: #2f303a;
+}
+.logo-studio-footer {
+  color: var(--primery-white-color);
+}
+
+.footer {
+  background: #2f303a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--primery-white-color);
+}
+.adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--primery-white-color);
+}
+
+.post-title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.post-title1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  
+color: var(--title-text-color);
+}
+.post-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
+}
+.post-link {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+.zagolovok {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primery-white-color);
+}
+.solutions {
+  background: #2f303a;
+  position: left;
+}
