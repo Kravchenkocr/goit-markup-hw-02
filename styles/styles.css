@@ -1,0 +1,213 @@
+:root {
+  /* Текст колор */
+  --main-font: 'Roboto';
+  --sacondary-font: 'Raleway';
+  --title-text-color: #212121;
+  --primery-text-color: #757575;
+
+  /* Бэкграунд колор */
+  --primery-white-color: #ffffff;
+  --accent-text-color: #2196f3;
+  --sacondary-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
+}
+
+body {
+  background-color: var(--primery-white-color);
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.header {
+  background: var(--primery-white-color);
+}
+.list {
+  list-style: none;
+}
+.section2 {
+  background-color: var(--primery-white-color);
+}
+.section3 {
+  background: var(--sacondary-background-color);
+}
+
+/*site-nav*/
+
+.site-nav.link {
+  color: var(--title-text-color);
+}
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: currentColor;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-text-color);
+}
+.mail:hover,
+.mail:focus {
+  color: var(--accent-text-color);
+}
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+/*button*/
+
+.button {
+  color: currentColor;
+  font-family: inherit;
+  border: none;
+}
+
+.button-primary {
+  background-color: var(--accent-text-color);
+  color: var(--primery-white-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+}
+.button-secondary {
+  background-color: var(--sacondary-background-color);
+  font-family: inherit;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+}
+
+/*Контакты*/
+
+.mail {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.mail-footer {
+  color: var(--primery-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--accent-text-color);
+  text-decoration: none;
+}
+.logo-studio {
+  color: var(--dark-background-color);
+}
+.logo-studio-footer {
+  color: var(--primery-white-color);
+}
+
+.footer {
+  background: var(--dark-background-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--primery-white-color);
+}
+.adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--primery-white-color);
+}
+
+.post-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.post-title1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--title-text-color);
+}
+.post-text {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  line-height: 1.71;
+  color: var(--primery-text-color);
+}
+.post-link {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+.zagolovok {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primery-white-color);
+}
+.solutions {
+  background: var(--dark-background-color);
+  position: left;
+}
+.post {
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
